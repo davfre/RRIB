@@ -27,7 +27,8 @@ using R + open source tools, and make the reproduction available online.
 
 ## Learning outcomes
 
--   You will learn good practise for how to make your own research reproducible.
+-   You will learn good practise for how to make your own research reproducible,
+and gain experience with specific tools.
 
 -   Reproduce the figures, tables, and statistical methods of a
     [selected published paper](http://davfre.github.io/RRIB/) using R markdown
@@ -46,9 +47,9 @@ a paper in http://rescience.github.io/read/ if suitable)
 
 As part of the course, you will actually reproduce the main findings, tables
 and figures of a paper. You will spend substantial time and effort on reproducing
-a paper, so selection is very important. Please make suggestions [here](papers.md).
+a paper, so selection is very important. You should select two papers that you
+would like to reproduce (one is backup).
 
-You should select two papers that you would like to reproduce (one is backup).
 Criteria:
 
 - highly relevant to your own research
@@ -60,6 +61,11 @@ Criteria:
 - reproduction should appear feasible in a weeks effort (spread over a couple
 of months) at most. If the paper is massive, you may reproduce a suitabily sized
 and interesting section of it.
+
+Ahead of the workshop, you will make your suggestion known by forking the RRIB
+git repository, adding a new branch ("paper-yourLastname") and issuing
+a pull-request. If this sounds foreign to you now, detailed instructions will be
+provided - and it will be very familiar at the end of the course.
 
 ### Workshop (2 days)
 
