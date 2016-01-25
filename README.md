@@ -43,7 +43,7 @@ a paper in http://rescience.github.io/read/ if suitable)
 
 ## Modules
 
-### Pre-workhop
+### Pre-workshop
 
 As part of the course, you will actually reproduce the main findings, tables
 and figures of a paper. You will spend substantial time and effort on reproducing
@@ -62,10 +62,9 @@ Criteria:
 of months) at most. If the paper is massive, you may reproduce a suitabily sized
 and interesting section of it.
 
-Ahead of the workshop, you will make your suggestion known by forking the RRIB
-git repository, adding a new branch ("paper-yourLastname") and issuing
-a pull-request. If this sounds foreign to you now, detailed instructions will be
-provided - and it will be very familiar at the end of the course.
+Ahead of the workshop, you will make your suggestion known by adding the
+reference to the RRIB repository. See [here](contributing.md) for detailed
+instructions.
 
 ### Workshop (2 days)
 
