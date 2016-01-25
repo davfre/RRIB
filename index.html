@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>RRIB by davfre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">RRIB</h1>
+      <h2 class="project-tagline">Reproducible Research In Bioinformatics</h2>
+      <a href="https://github.com/davfre/RRIB" class="btn">View on GitHub</a>
+      <a href="https://github.com/davfre/RRIB/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/davfre/RRIB/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="reproducible-research-in-bioinformatics-and-biostatistics" class="anchor" href="#reproducible-research-in-bioinformatics-and-biostatistics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reproducible Research in Bioinformatics and Biostatistics</h2>
+
+<p>The scientific process in life science research, from data collection and
+processing to analyses, visualization and conclusions, increasingly depend
+on algorithms and computation. Collaborative projects where researchers share
+written analyses, data files and computing scripts electronically are now
+the norm rather than the exception. Frequently, the analysis is so complex that
+it is near impossible to fully describe in a written document.</p>
+
+<p>To convey findings with clarity, making it possible for a researcher to
+completely follow someone else’s work, is the crux of scientific collaboration.
+Thus, reproducible research, and reproducible computation in particular, has
+received increasing attention in the scientific community in recent years. </p>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+
+<p>In this practical and hands-on course, we will learn effective methods for
+collaborative and reproducible research, while learning bioinformatics and
+statistics methods relevant for our own research. Following a workshop that
+introduces and teaches methods, each student will reproduce a chosen paper
+using R + open source tools, and make the reproduction available online.</p>
+
+<h2>
+<a id="learning-outcomes" class="anchor" href="#learning-outcomes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Learning outcomes</h2>
+
+<ul>
+<li><p>You will learn good practise for how to make your own research reproducible.</p></li>
+<li><p>Reproduce the figures, tables, and statistical methods of a
+<a href="http://davfre.github.io/RRIB/">selected published paper</a> using R markdown
+(and open-source tools).</p></li>
+<li><p>Make the reproduction publically available (git repo + blog post, possibly
+a paper in <a href="http://rescience.github.io/read/">http://rescience.github.io/read/</a> if suitable)</p></li>
+<li><p>Understand and apply methods relevant for your own research</p></li>
+<li><p>Collaborate and create science.</p></li>
+</ul>
+
+<h2>
+<a id="modules" class="anchor" href="#modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modules</h2>
+
+<h3>
+<a id="pre-workhop" class="anchor" href="#pre-workhop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pre-workhop</h3>
+
+<p>As part of the course, you will actually reproduce the main findings, tables
+and figures of a paper. You will spend substantial time and effort on reproducing
+a paper, so selection is very important. Please make suggestions <a href="papers.md">here</a>.</p>
+
+<p>You should select two papers that you would like to reproduce (one is backup).
+Criteria:</p>
+
+<ul>
+<li><p>highly relevant to your own research</p></li>
+<li><p>focus mostly on analyses of empirical data</p></li>
+<li><p>raw data must be available.</p></li>
+<li><p>reproduction should appear feasible in a weeks effort (spread over a couple
+of months) at most. If the paper is massive, you may reproduce a suitabily sized
+and interesting section of it.</p></li>
+</ul>
+
+<h3>
+<a id="workshop-2-days" class="anchor" href="#workshop-2-days" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workshop (2 days)</h3>
+
+<ul>
+<li><p>Collaborative science with Git [basics, branching, pull requests]</p></li>
+<li><p>Data management, processing, cleaning</p></li>
+<li><p>R and RMarkdown</p></li>
+<li><p>Dealing with dependencies [packaging, containers]</p></li>
+<li><p>Presentation of the paper you have chosen: underlying data, which portions of
+the paper you will reproduce</p></li>
+</ul>
+
+<h3>
+<a id="capstone-project-40-hrs" class="anchor" href="#capstone-project-40-hrs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Capstone project (~40 hrs)</h3>
+
+<p>The capstone project represents the majority of the course work.
+This will be done by way of online collaborative reproduction
+with 1-2 students per project via github.com. Bi-weekly peer-assessment
+[you provide feedback to other projects] and a final delivery deadline.</p>
+
+<ul>
+<li><p>Reproductions will be in R markdown, and should be generously commented.</p></li>
+<li><p>Data manipulations must be done programmatically in R (or other open source software, if
+required). No alteration of original data files allowed.</p></li>
+<li><p>A reproduction will follow the sequence data download, data processing, and
+finally reproduction of results/figures/tables.</p></li>
+</ul>
+
+<h2>
+<a id="outcome" class="anchor" href="#outcome" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Outcome</h2>
+
+<p>The final report (blog post) will include:</p>
+
+<ul>
+<li><p>A fully reproduced paper that can be generated from
+the raw datasets, available online <a href="http://davfre.github.io/RRIB/">here</a>.</p></li>
+<li><p>An online report of your reproduction, with code.</p></li>
+<li><p>Research ideas.</p></li>
+<li><p>Outstanding issues.</p></li>
+<li><p>Parts of the paper we decided to not reproduce and why.</p></li>
+</ul>
+
+<h2>
+<a id="online-collaboration-and-participation" class="anchor" href="#online-collaboration-and-participation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Online collaboration and participation</h2>
+
+<p>Anyone can read and contribute to a reproduction on github, see
+<a href="contributing.md">here</a> for detailed instructions. </p>
+
+<h2>
+<a id="communication" class="anchor" href="#communication" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Communication</h2>
+
+<p>Please use the RRIB github repository Issues and Wiki for as much communication
+as possible. There will be no email list. Any enquiries should be made as an
+Issue or wiki entry here: <a href="https://github.com/davfre/RRIB">https://github.com/davfre/RRIB</a> </p>
+
+<h2>
+<a id="ects-points" class="anchor" href="#ects-points" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ECTS points</h2>
+
+<p>Norbis Students can gain 5 (10?) ECTS for attending the workshop, completing the
+capstone project, and actively providing peer assessment.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/davfre/RRIB">RRIB</a> is maintained by <a href="https://github.com/davfre">davfre</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
