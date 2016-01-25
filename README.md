@@ -1,11 +1,9 @@
 ---
-title: "README"
+title: "Reproducible Research in Bioinformatics and Biostatistics"
 author: "David Fredman"
 date: "22 January 2016"
 output: html_document
 ---
-
-## Reproducible Research in Bioinformatics and Biostatistics
 
 The scientific process in life science research, from data collection and
 processing to analyses, visualization and conclusions, increasingly depend
@@ -32,22 +30,36 @@ using R + open source tools, and make the reproduction available online.
 -   You will learn good practise for how to make your own research reproducible.
 
 -   Reproduce the figures, tables, and statistical methods of a
-    [selected published paper](http://davfre.github.io/RRIB/).
+    [selected published paper](http://davfre.github.io/RRIB/) using R markdown
+    (and open-source tools).
 
 -   Make the reproduction publically available (git repo + blog post, possibly
-a paper in http://rescience.github.io/read/ if suiable)
+a paper in http://rescience.github.io/read/ if suitable)
 
 -   Understand and apply methods relevant for your own research
 
 -   Collaborate and create science.
 
-
 ## Modules
 
 ### Pre-workhop
 
-- (carefully) select two papers that you would like to reproduce.
-More on this below.
+As part of the course, you will actually reproduce the main findings, tables
+and figures of a paper. You will spend substantial time and effort on reproducing
+a paper, so selection is very important. Please make suggestions [here](papers.md).
+
+You should select two papers that you would like to reproduce (one is backup).
+Criteria:
+
+- highly relevant to your own research
+
+- focus mostly on analyses of empirical data
+
+- raw data must be available.
+
+- reproduction should appear feasible in a weeks effort (spread over a couple
+of months) at most. If the paper is massive, you may reproduce a suitabily sized
+and interesting section of it.
 
 ### Workshop (2 days)
 
@@ -66,21 +78,8 @@ the paper you will reproduce
 
 The capstone project represents the majority of the course work.
 This will be done by way of online collaborative reproduction
-[2 students per project] via github.com, with bi-weekly peer-review
-[you provide feedback to other projects]. 
-
-
-## Paper selection
-
-We will spend substantial time and effort on each paper, so selection is very important. Please make suggestions [here](papers.md).
-
-- Focus on papers with mostly analyses of empirical data.
-
-- Raw data must be available.
-
-- Reproduction should appear feasible in a weeks effort (spread over a couple of months) at most. If the paper is massive, you may reproduce a suitabily sized and interesting section of it.
-
-## Reproduction guidelines
+with 1-2 students per project via github.com. Bi-weekly peer-assessment
+[you provide feedback to other projects] and a final delivery deadline.
 
 - Reproductions will be in R markdown, and should be generously commented.
 
@@ -92,10 +91,12 @@ finally reproduction of results/figures/tables.
 
 ## Outcome
 
+The final report (blog post) will include:
+
 -   A fully reproduced paper that can be generated from
     the raw datasets, available online [here](http://davfre.github.io/RRIB/).
 
--   An online report of our reproduction, with code.
+-   An online report of your reproduction, with code.
 
 -   Research ideas.
 
@@ -103,15 +104,11 @@ finally reproduction of results/figures/tables.
 
 -   Parts of the paper we decided to not reproduce and why.
 
-## Bi-weekly meetings
 
-Information [here](Meetings.md).
-
-## Remote collaboration and participation
+## Online collaboration and participation
 
 Anyone can read and contribute to a reproduction on github, see
-[here](contributing.md) for detailed instructions. If you do not know what git
-and Github are, please look at these [resources](Git_resources.md) to get you started).
+[here](contributing.md) for detailed instructions. 
 
 ## Communication
 
@@ -119,11 +116,9 @@ Please use the RRIB github repository Issues and Wiki for as much communication
 as possible. There will be no email list. Any enquiries should be made as an
 Issue or wiki entry here: https://github.com/davfre/RRIB 
 
-## Gaining 1 (2?) ECTS
+## ECTS points
 
-Norbis Students can gain 1 (2?) ECTS for attending the workshop, completing the
+Norbis Students can gain 5 (10?) ECTS for attending the workshop, completing the
 capstone project, and actively providing peer assessment.
-
-You will learn how to make reproductions using R markdown.
 
 
