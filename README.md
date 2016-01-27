@@ -67,7 +67,7 @@ and interesting section of it.
 
 - Data management, processing, cleaning
 
-- R and RMarkdown
+- Jupyter Notebooks, RMarkdown
 
 - Dealing with dependencies [packaging, containers]
 
@@ -81,9 +81,9 @@ This will be done by way of online collaborative reproduction
 with 1-2 students per project via github.com. Bi-weekly peer-assessment
 [you provide feedback to other projects] and a final delivery deadline.
 
-- Reproductions will be in R markdown, and should be generously commented.
+- Reproductions will be in Jupyter notebooks or RMarkdown using python/R, and should be generously commented.
 
-- Data manipulations must be done programmatically in R (or other open source software, if
+- Data manipulations must be done programmatically using Python/R (and open source software if
 required). No alteration of original data files allowed.
 
 - A reproduction will follow the sequence data download, data processing, and
